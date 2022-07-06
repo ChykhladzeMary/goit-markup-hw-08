@@ -1,0 +1,39 @@
+
+.attention {
+    margin-right: 93px;
+}
+
+.attention__text {
+    font-weight: $font-weight-700;
+    font-size: $font-size-14;
+    line-height: $line-height-114;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.attention__link {
+   @include centerFlex();
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+    transition: background-color $animation;
+
+&:hover,
+&:focus {
+    background-color: #2196F3;
+
+}
+}
+
+.attention__list {
+    display: flex;
+}
+
+.attention__item:not(:last-child) {
+    margin-right: 10px;
+}
+

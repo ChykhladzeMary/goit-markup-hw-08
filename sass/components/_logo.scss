@@ -1,0 +1,18 @@
+.logo {
+    font-family: $font-family-secondary;
+    color: $main-color;
+    font-size: $font-size-26;
+    font-weight: $font-weight-700;
+    text-decoration: none;
+    line-height: $line-height-119;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+}
+
+.logo__part {
+    color: $accent-color;
+    font-weight: $font-weight-700;
+}

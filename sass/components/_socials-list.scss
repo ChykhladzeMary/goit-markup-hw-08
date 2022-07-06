@@ -1,0 +1,35 @@
+  .socials-list {
+    @include centerFlex();
+
+
+  &__item:not(:last-child) {
+      margin-right: 10px;
+  }
+
+
+  &__link {
+    @include centerFlex();
+      width: 44px;
+      height: 44px;
+      background-color: $title-color;
+      border-radius: 50%;
+      transition: background-color $animation;
+  }
+
+  &__icon {
+      fill: $color-icon;
+  }
+}
+
+  .socials-list__link:hover .socials-list__icon,
+  .socials-list__link:focus .socials-list__icon {
+      fill: $title-color;
+      transition: fill $animation;
+  }
+
+  .socials-list__link:hover,
+  .socials-list__link:focus {
+      background-color: $accent-color;
+
+  }
+

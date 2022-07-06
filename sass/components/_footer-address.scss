@@ -1,0 +1,39 @@
+.container-footer-address {
+    margin-right: 70px;
+
+}
+
+.address__item {
+    color: $additional-color;
+    font-size: $font-size-14;
+    line-height: $line-height-117;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    transition: color $animation;
+
+
+&:focus,
+&:hover {
+    color: $accent-color;
+}
+}
+
+
+.address__map {
+    color: $title-color;
+    font-size: $font-size-14;
+    line-height: $line-height-117;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.address__list {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    padding: 60px 0;
+    background-color: $background-color-basic;
+
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.footer__logo {
+    color: $title-color;
+}
+
+.address {
+    margin-top: 20px;
+}
