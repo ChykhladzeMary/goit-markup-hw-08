@@ -1,0 +1,11 @@
+.main-header {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-header {
+    @media screen and (min-width: 320px) {
+            width: 320px; 
+            }
+        }
