@@ -2,11 +2,22 @@
     padding: 60px 0;
     background-color: $background-color-basic;
 
+    @media screen and (min-width: 1200px) {
+            align-items: baseline;
+            display: flex;
+        }
 }
 
 .container-footer {
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
 }
 
 
@@ -16,4 +27,7 @@
 
 .address {
     margin-top: 20px;
+    @media screen and(max-width: 480px) {
+            margin-bottom: 60px;
+        }
 }

@@ -1,15 +1,35 @@
 .sorting-menu {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    justify-content: start;
+    gap: 8px;
+    flex-wrap: wrap;
+    // margin-bottom: 50px;
+    @media screen and (min-width: 480px) {
+    margin-bottom: 40px;
+    
+        }
+    
+        @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+        justify-content: center;
+        flex-wrap: nowrap;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-wrap: nowrap;
+    
+        }
 }
 
 .sorting-menu__item {
     border-radius: 4px;
 
-&:not(:last-child) {
-    margin-right: 8px;
-}
+// &:not(:last-child) {
+//     margin-right: 8px;
+// }
 }
 
 .sorting-menu__btn {
